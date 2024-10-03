@@ -1,0 +1,126 @@
+.intro{
+    position: relative;
+    width: 1280px;
+    height: 600px;
+    left: 80px;
+    top: 113px;
+    background: url(../img/Bitmap.png);
+
+    .hikoyacha{
+        position: relative;
+        width: 493px;
+        height: 367px;
+        display: flex;
+        flex-direction: column;
+        top: 117px;
+        left: 85px;
+
+        h1{
+            position: relative;
+            width: 493px;
+            height: 145px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FEFCF7;
+            bottom: 32px;
+        }
+
+        p{
+            position: relative;
+            width: 435px;
+            height: 78px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            bottom: 56px;
+        }
+
+        button{
+            position: relative;
+            left: 0;
+            bottom: 0;
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .intro{
+        width: 689px;
+        height: 500px;
+        top: 119px;
+        left: 39px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 6px;
+
+        .hikoyacha{
+            top: 104px;
+            left: 58px;
+
+            h1{
+                width: 329px;
+                height: 97px;
+                font-family: 'Fraunces 9pt';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 48px;
+                color: #FEFCF7;
+                bottom: 24px;
+            }
+
+            p{
+                width: 398px;
+                height: 75px;
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FEFCF7;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+                bottom: 40px;
+            }
+        }
+    }    
+}
+
+@media only screen and (max-width:425px){
+    .intro{
+        width: 327px;
+        height: 500px;
+        top: 90px;
+        left: 24px;
+        background-position-x: 60%;
+        border-radius: 7px;
+
+        .hikoyacha{
+            top: 100px;
+            left: 24px;
+            width: 279px;
+            height: 301px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+
+            h1{
+                width: 279px;
+            }
+
+            p{
+                width: 279px;
+            }
+        }
+    }
+}

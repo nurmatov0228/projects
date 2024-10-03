@@ -1,0 +1,99 @@
+.coffeeroasters img {
+  position: absolute;
+  width: 236px;
+  height: 26px;
+  left: 80.1px;
+  top: 43.56px;
+}
+
+@media only screen and (max-width: 768px) {
+  .coffeeroasters img {
+    top: 40px;
+    left: 39px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .coffeeroasters img {
+    width: 163px;
+    height: 18px;
+    left: 24px;
+    top: 32px;
+  }
+}
+
+.burgerbutton {
+  position: relative;
+  width: 16px;
+  height: 15px;
+  top: 34px;
+  left: 335px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+
+  hr {
+    width: 16px;
+    height: 3px;
+    color: black;
+    background-color: black;
+    border-radius: 1.5px;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .burgerbutton {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .burgerbutton {
+    display: flex;
+  }
+}
+
+.navbar {
+  position: absolute;
+  width: 283px;
+  height: 15px;
+  left: 1077px;
+  top: 50px;
+  display: flex;
+  justify-content: space-around;
+
+  div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: #333d4b;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    top: 46px;
+    left: 445px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .navbar {
+    display: none;
+  }
+}

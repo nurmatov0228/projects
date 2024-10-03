@@ -1,0 +1,140 @@
+.headquarters{
+    position: absolute;
+    width: 1045px;
+    height: 366px;
+    left: 159px;
+    top: 2149px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    span{
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+
+    .bolim{
+        width: 1045px;
+        height: 262px;
+        display: flex;
+        gap: 95px;
+
+        .birga{
+            width: 285px;
+            height: 262px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: start;
+
+            .hikoya{
+                width: 285px;
+                height: 167px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                color: #333D4B;
+
+                h2{
+                    width: 272px;
+                    font-family: 'Fraunces 9pt';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 36px;
+                }
+
+                p{
+                    width: 153px;
+                    height: 107px;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .headquarters{
+        width: 688px;
+        height: 366px;
+        top: 2069px;
+        left: 40px;
+
+        .bolim{
+            width: 688px;
+            height: 262px;
+            gap: 9px;
+
+            .birga{
+                width: 223px;
+                height: 262px;
+
+                .hikoya{
+                    height: 164px;
+                    width: 223px;
+
+                    h2{
+                        width: 223px;
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+
+                    p{
+                        width: 222px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:425px){
+    .headquarters{
+        width: 327px;
+        height: 1044px;
+        top: 2338px;
+        left: 24px;
+
+        .bolim{
+            width: 327px;
+            height: 946px;
+            flex-direction: column;
+            gap: 80px;
+
+            .birga{
+                width: 327px;
+                height: 262px;
+                align-items: center;
+                justify-content: space-between;
+
+                .hikoya{
+                    width: 327px;
+                    height: 165px;
+                    text-align: center;
+                    justify-content: space-between;
+
+                    h2{
+                        width: 327px;
+                        height: 56px;
+                    }
+
+                    p{
+                        width: 326px;
+                        height: 107px;
+                    }
+                }
+            }
+        }
+    }
+}

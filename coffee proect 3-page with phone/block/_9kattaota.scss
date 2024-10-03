@@ -1,0 +1,194 @@
+.kattaota{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 730px;
+    height: 2122px;
+    margin-left: 545px;
+    margin-top: 1552px;
+    gap: 88px;
+
+    .drink{
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+
+        .tepa{
+            display: flex;
+            justify-content: space-between;
+
+            h1{
+                position: relative;
+                width: 628.49px;
+                height: 39.52px;
+                left: 1.78px;
+                top: 7.8px;
+                font-family: 'Fraunces 9pt';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                color: #83888F;
+            }
+
+            img{
+                position: relative;
+                width: 18.19px;
+                height: 11.92px;
+                right: 17.49px;
+                top: 18.59px;
+            }
+        }
+
+        .past{
+            display: flex;
+            gap: 23px;
+            justify-content: space-between;
+
+            ._1, ._2, ._3{
+                position: relative;
+                width: 228px;
+                height: 250px;
+                left: 0px;
+                top: 0px;
+                background-color: #F4F1EB;
+                border-radius: 8px;
+
+                .hikoya{
+                    position: relative;
+                    width: 172px;
+                    height: 134px;
+                    left: 28px;
+                    top: 32px;
+
+                    h2{
+                        position: relative;
+                        width: 175px;
+                        height: 32px;
+                        left: 0px;
+                        top: 0px;
+                        font-family: 'Fraunces 9pt';
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #333D4B;
+                    }
+
+                    p{
+                        position: relative;
+                        width: 170px;
+                        height: 78px;
+                        left: 0px;
+                        top: 24px;
+                        font-family: 'Barlow';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #333D4B;
+                    }
+                }
+            }
+
+            ._1:hover, ._2:hover, ._3:hover{
+                cursor: pointer;
+                background-color: #FDD6BA;
+                transition: none 0.3s ease-in;
+                color: #333D4B;
+            }
+
+            ._1:active, ._2:active, ._3:active{
+                cursor: pointer;
+                background-color: #0E8784;
+                transition: all 0.5s ease-out;
+
+                h2{
+                    color: #fff;
+                }
+
+                p{
+                    color: #FEFCF7;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .kattaota{
+        gap: 100px;
+        width: 689px;
+        height: 2090px;
+        margin: 0;
+        top: 1447px;
+        left: 39px;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .kattaota{
+        position: relative;
+        width: 328px;
+        height: 3140px;
+        margin: 0;
+        gap: 110px;
+        top: 632px;
+        left: 24px;
+
+        .drink{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 328px;
+            height: 540px;
+            justify-content: space-between;
+
+            .tepa{
+                width: 328px;
+                height: 56px;
+                align-items: center;
+
+                h1{
+                    width: 240px;
+                    height: 56px;
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+            }
+
+            .past{
+                flex-direction: column;
+                width: 328px;
+                height: 452px;
+                gap: 16px;
+
+                ._1, ._2, ._3{
+                    width: 328px;
+                    height: 140px;
+
+                    .hikoya{
+                        width: 278px;
+                        height: 92px;
+                        display: flex;
+                        flex-direction: column;
+                        top: 0;
+                        left: 0;
+                        margin: 24px 25px;
+
+                        h2{
+                            min-width: 175px;
+                            height: 32px;
+                        }
+
+                        p{
+                            width: 278px;
+                            height: 52px;
+                            top: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+.burgerbutton{
+    position: relative;
+    width: 16px;
+    height: 15px;
+    top: 34px;
+    left: 335px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+
+    hr{
+        width: 16px;
+        height: 3px;
+        color: black;
+        background-color: black;
+        border-radius: 1.5px;
+        border: none;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .burgerbutton{
+        display: flex;
+    }
+}
+
+.coffeeroasters img{
+    position: absolute;
+    width: 236px;
+    height: 26px;
+    left: 80.1px;
+    top: 43.56px;
+}
+
+.navbar{
+    position: absolute;
+    width: 283px;
+    height: 15px;
+    left: 1077px;
+    top: 50px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+@media only screen and (max-width:768px){
+    .coffeeroasters img{
+        top: 40px;
+        left: 39px;
+    }
+
+    .navbar{
+        top: 46px;
+        left: 445px;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .coffeeroasters img{
+        width: 163px;
+        height: 18px;
+        left: 24px;
+        top: 32px;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .navbar{
+        display: none;
+    }
+}

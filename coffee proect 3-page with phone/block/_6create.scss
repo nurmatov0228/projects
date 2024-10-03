@@ -1,0 +1,139 @@
+.create{
+    position: absolute;
+    width: 1280px;
+    height: 450px;
+    left: 80px;
+    top: 48px;
+
+    img{
+        position: absolute;
+        width: 1280px;
+        height: 450px;
+        left: 0px;
+        top: 48px;
+    }
+
+    .hikoya{
+        position: absolute;
+        width: 486px;
+        height: 182px;
+        left: 85px;
+        top: 134px;
+        z-index: 999;
+
+        h1{
+            height: 72px;
+            width: 485px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FEFCF7;
+        }
+
+        p{
+            width: 445px;
+            height: 78px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .create{
+        width: 689px;
+        height: 400px;
+        top: 119px;
+        left: 39px;
+
+        .hikoya{
+            width: 398px;
+            height: 147px;
+            top: 99px;
+            left: 58px;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: space-between;
+
+            h1{
+                width: 324px;
+                font-size: 48px;
+                line-height: 48px;
+            }
+
+            p{
+                width: 398px;
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+
+        .rasmcha{
+            position: absolute;
+            overflow: hidden;
+            border-radius: 10px;
+            width: 689px;
+            height: 400px;
+
+            img{
+                top: 0;
+                left: -200px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:425px){
+    .create{
+        width: 327px;
+        height: 400px;
+        top: 90px;
+        left: 24px;
+
+        .hikoya{
+            width: 279px;
+            height: 163px;
+            top: 101px;
+            left: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+
+            h1{
+                width: 279px;
+                font-size: 40px;
+                line-height: 40px;
+            }
+
+            p{
+                width: 279px;
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+
+        .rasmcha{
+            position: absolute;
+            width: 327px;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 10px;
+
+            img{
+                top: 0;
+                left: -480px;
+            }
+        }
+    } 
+}

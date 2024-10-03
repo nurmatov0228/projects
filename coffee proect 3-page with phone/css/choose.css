@@ -1,0 +1,305 @@
+.choose {
+  position: absolute;
+  width: 1280px;
+  height: 653px;
+  left: 80px;
+  top: 302px;
+}
+.choose .rasmcha {
+  position: absolute;
+  width: 1280px;
+  height: 653px;
+  left: 0px;
+  top: 302px;
+  background: #2c343e;
+  border-radius: 10px;
+}
+.choose .kattahikoya {
+  position: absolute;
+  width: 1045px;
+  height: 454px;
+  left: 85px;
+  top: 402px;
+  z-index: 998;
+}
+.choose .kattahikoya .oval1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+}
+.choose .kattahikoya .oval2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 465px;
+  top: 0px;
+}
+.choose .kattahikoya .oval3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 845px;
+  top: 0px;
+}
+.choose .kattahikoya .chiziq {
+  position: absolute;
+  width: 844.5px;
+  height: 1px;
+  left: 15.5px;
+  top: 15.5px;
+}
+.choose .kattahikoya h1 {
+  position: absolute;
+  width: 255px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #fefcf7;
+}
+.choose .kattahikoya p {
+  position: absolute;
+  width: 285px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
+.choose .kattahikoya .hikoya_1 {
+  position: absolute;
+  width: 285px;
+  height: 356px;
+  left: 0px;
+  top: 67px;
+}
+.choose .kattahikoya .hikoya_1 img {
+  position: absolute;
+  width: 90px;
+  height: 72px;
+  left: 0;
+  top: 0;
+}
+.choose .kattahikoya .hikoya_1 h1 {
+  height: 73px;
+  left: 0%;
+  right: 10.53%;
+  top: calc(50% - 36.5px - 31.5px);
+}
+.choose .kattahikoya .hikoya_1 p {
+  left: 0%;
+  right: 0%;
+  top: 63.2%;
+  bottom: 0%;
+}
+.choose .kattahikoya .hikoya_2 {
+  position: absolute;
+  width: 285px;
+  height: 355px;
+  left: 370px;
+  top: 67px;
+}
+.choose .kattahikoya .hikoya_2 img {
+  position: absolute;
+  width: 101px;
+  height: 72px;
+  left: 0;
+  top: 0;
+}
+.choose .kattahikoya .hikoya_2 h1 {
+  height: 72px;
+  left: 0%;
+  right: 10.53%;
+  top: calc(50% - 36px - 31.5px);
+}
+.choose .kattahikoya .hikoya_2 p {
+  left: 0%;
+  right: 0%;
+  top: 63.38%;
+  bottom: 0%;
+}
+.choose .kattahikoya .hikoya_3 {
+  position: absolute;
+  width: 285px;
+  height: 355px;
+  left: 740px;
+  top: 67px;
+}
+.choose .kattahikoya .hikoya_3 img {
+  position: absolute;
+  width: 98px;
+  height: 72px;
+  left: 0;
+  top: 0;
+}
+.choose .kattahikoya .hikoya_3 h1 {
+  height: 72px;
+  left: 0%;
+  right: 10.53%;
+  top: calc(50% - 36px - 31.5px);
+}
+.choose .kattahikoya .hikoya_3 p {
+  left: 0%;
+  right: 0%;
+  top: 63.38%;
+  bottom: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+  .choose {
+    width: 768px;
+    height: 640px;
+    top: 663px;
+    left: 0;
+  }
+  .choose .rasmcha {
+    width: 768px;
+    height: 640px;
+    top: 0px;
+    left: 0;
+  }
+  .choose .rasmcha img {
+    display: none;
+  }
+  .choose .kattahikoya {
+    width: 689px;
+    height: 473px;
+    top: 97px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .choose .kattahikoya .oval1,
+  .choose .kattahikoya .oval2,
+  .choose .kattahikoya .oval3 {
+    top: 0;
+  }
+  .choose .kattahikoya .oval1 {
+    top: 0;
+    left: 0;
+  }
+  .choose .kattahikoya .oval2 {
+    left: 242px;
+  }
+  .choose .kattahikoya .oval3 {
+    left: 475px;
+  }
+  .choose .kattahikoya .chiziq {
+    width: 475px;
+    height: 2px;
+  }
+  .choose .kattahikoya .hikoya_1,
+  .choose .kattahikoya .hikoya_2,
+  .choose .kattahikoya .hikoya_3 {
+    width: 223px;
+    height: 368px;
+    top: 48px;
+  }
+  .choose .kattahikoya .hikoya_1 img,
+  .choose .kattahikoya .hikoya_2 img,
+  .choose .kattahikoya .hikoya_3 img {
+    top: 48px;
+    left: 0;
+  }
+  .choose .kattahikoya .hikoya_1 h1,
+  .choose .kattahikoya .hikoya_2 h1,
+  .choose .kattahikoya .hikoya_3 h1 {
+    top: 162px;
+    max-width: 223px;
+    height: 65px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .choose .kattahikoya .hikoya_1 p,
+  .choose .kattahikoya .hikoya_2 p,
+  .choose .kattahikoya .hikoya_3 p {
+    top: 265px;
+    width: 223px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .choose .kattahikoya .hikoya_1 {
+    left: 0px;
+  }
+  .choose .kattahikoya .hikoya_2 {
+    left: 233px;
+  }
+  .choose .kattahikoya .hikoya_3 {
+    left: 466px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .choose {
+    position: relative;
+    top: 256px;
+    left: 0;
+    width: 375px;
+    height: 1028px;
+  }
+  .choose .rasmcha {
+    top: 256px;
+    left: 0;
+    width: 375px;
+    height: 1028px;
+  }
+  .choose .rasmcha img {
+    display: none;
+  }
+  .choose .kattahikoya {
+    position: relative;
+    width: 327px;
+    height: 869px;
+    top: 336px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
+  .choose .kattahikoya .oval1,
+  .choose .kattahikoya .oval2,
+  .choose .kattahikoya .oval3,
+  .choose .kattahikoya .chiziq {
+    display: none;
+  }
+  .choose .kattahikoya .hikoya_1,
+  .choose .kattahikoya .hikoya_2,
+  .choose .kattahikoya .hikoya_3 {
+    position: relative;
+    width: 327px;
+    height: 252px;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .choose .kattahikoya .hikoya_1 img,
+  .choose .kattahikoya .hikoya_2 img,
+  .choose .kattahikoya .hikoya_3 img {
+    top: 0;
+    left: auto;
+  }
+  .choose .kattahikoya .hikoya_1 h1,
+  .choose .kattahikoya .hikoya_2 h1,
+  .choose .kattahikoya .hikoya_3 h1 {
+    top: 72px;
+    width: 327px;
+    height: 32px;
+  }
+  .choose .kattahikoya .hikoya_1 p,
+  .choose .kattahikoya .hikoya_2 p,
+  .choose .kattahikoya .hikoya_3 p {
+    top: 152px;
+    width: 327px;
+    height: 100px;
+  }
+}/*# sourceMappingURL=choose.css.map */

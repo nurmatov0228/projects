@@ -1,0 +1,19 @@
+.section{
+    position: relative;
+    width: 1440px;
+    height: auto;
+    background: #FEFCF7;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:768px){
+    .section{
+        width: 750px;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .section{
+        width: 375px;
+    }
+}

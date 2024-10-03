@@ -1,0 +1,254 @@
+.works{
+    position: relative;
+    top: 476px;
+    left: 165px;
+    width: 1045px;
+    height: 565px;
+
+    span{
+        position: relative;
+        width: 255px;
+        height: 32px;
+        top: 0;
+        left: 0;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+
+    .umumiy{
+        position: relative;
+        width: 1045px;
+        height: 453px;
+        top: 112px;
+        left: 0;
+
+        img{
+            width: 31px;
+            height: 31px;
+            z-index: 99999;
+        }
+
+        .images{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 791px;
+            height: 31px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        hr{
+            width: 760px;
+            height: 1px;
+            color: #FDD6BA;
+            background-color: #FDD6BA;
+            position: absolute;
+            top: 15px;
+            left: 15.5px;
+        }
+
+        .uchtalik{
+            position: relative;
+            width: 1045px;
+            height: 355px;
+            display: flex;
+            justify-content: space-between;
+
+            .birinchi{
+                img{
+                    width: 90px;
+                    height: 72px;
+                }
+            }
+
+            .ikkinchi{
+                img{
+                    width: 101px;
+                    height: 72px;
+                }
+            }
+
+            .uchinchi{
+                img{
+                    width: 98px;
+                    height: 72px;
+                }
+            }
+
+            .how{
+                position: relative;
+                top: 67px;
+                width: 285px;
+                height: 355px;
+                display: flex;
+                flex-direction: column;
+
+                img{
+                    position: absolute;
+                }
+
+                h2{
+                    position: relative;
+                    width: 255px;
+                    height: 72px;
+                    top: 110px;
+                    left: 0;
+                    font-family: 'Fraunces 9pt';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 36px;
+                    color: #333D4B;
+                }
+
+                p{
+                    position: relative;
+                    top: 153px;
+                    left: 0;
+                    width: 285px;
+                    height: 130px;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333D4B;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .works{
+        width: 689px;
+        height: 522px;
+        top: 434px;
+        left: 39px;
+
+        .umumiy{
+            width: 689px;
+            height: 450px;
+            left: 0;
+            top: 40px;
+
+            .images{
+                width: 497px;
+            }
+
+            hr{
+                width: 467px;
+                height: 2px;
+            }
+
+            .uchtalik{
+                width: 689px;
+                height: 371px;
+
+                .how{
+                    width: 223px;
+                    height: 371px;
+                    top: 48px;
+
+                    .h2{
+                        width: 223px;
+                        height: 65px;
+                        top: 114px;
+                        left: 0;
+                        font-family: 'Fraunces 9pt';
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 28px;
+                        line-height: 32px;
+                        color: #333D4B;
+                    }
+
+                    p{
+                        max-width: 220px;
+                        height: 154px;
+                    }
+                }
+
+                .uchinchi{
+                    h2{
+                        width: 222px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:425px){
+    .works{
+        width: 327px;
+        height: 1116px;
+        top: 296px;
+        left: 24px;
+
+        span{
+            top: 0;
+            left: 0;
+            width: 327px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #83888F;
+        }
+
+        .umumiy{
+
+            width: 327px;
+            .images{
+                display: none;
+            }
+
+            hr{
+                display: none;
+            }
+
+            .uchtalik{
+                width: 327px;
+                height: 868px;
+                flex-direction: column;
+
+                .how{
+                    top: 0;
+                    position: relative;
+                    width: 327px;
+                    height: 252px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img{
+                        position: relative;
+                        top: 0px;
+                    }
+
+                    h2{
+                        top: 24px;
+                        min-width: 327px;
+                        text-align: center;
+                    }
+
+                    p{
+                        width: 327px;
+                        height: 100px;
+                        text-align: center;
+                        top: 0px;
+                        bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

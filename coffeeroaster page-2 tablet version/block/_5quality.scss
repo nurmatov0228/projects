@@ -1,0 +1,179 @@
+.quality{
+    position: absolute;
+    width: 1280px;
+    height: 562px;
+    left: 80px;
+    top: 1419px;
+
+    .chiroylirasm0 img{
+        position: relative;
+        border-radius: 9px;
+        width: 279px;
+        height: 156px;
+        top: 0;
+        left: 24px;
+        z-index: 999;
+        display: none;
+    }
+
+    .chiroylirasm2 img{
+        position: relative;
+        width: 573px;
+        height: 320px;
+        top: 0;
+        left: 57px;
+        border-radius: 9px;
+        z-index: 99;
+        display: none;
+    }
+
+    .chiroylirasm img{
+        position: relative;
+        width: 445px;
+        height: 474px;
+        top: 0;
+        left: 750px;
+        border-radius: 8px;
+        z-index: 99;
+    }
+
+    .bolimcha{
+        position: relative;
+        top: -420px;
+        width: 1280px;
+        height: 474px;
+        background-color: #2C343E;
+        border-radius: 10px;
+
+        .hikoya{
+            position: relative;
+            top: 88px;
+            left: 85px;
+            width: 540px;
+            height: 210px;
+            color: #FEFCF7;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h1{
+                font-family: 'Fraunces 9pt';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                width: 517px;
+                height: 48px;
+            }
+
+            p{
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+                width: 540px;
+                height: 130px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .quality{
+        width: 688px;
+        height: 648px;
+        top: 1277px;
+        left: 40px;
+
+        .chiroylirasm0 img{
+            display: none;
+        }
+
+        .chiroylirasm img{
+            display: none;
+        }
+
+        .chiroylirasm2 img{
+            display: flex;
+        }
+
+        .bolimcha{
+            top: -160px;
+            width: 688px;
+            height: 488px;
+
+            .hikoya{
+                width: 540px;
+                height: 197px;
+                top: 200px;
+                left: 74px;
+                text-align: center;
+
+                h1{
+                    font-size: 32px;
+                    line-height: 48px;
+                }
+
+                p{
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:425px){
+    .quality{
+        top: 1631px;
+        left: 24px;
+        width: 327px;
+        height: 587px;
+
+
+        .chiroylirasm0 img{
+            display: flex;
+        }
+
+        .chiroylirasm img{
+            display: none;
+        }
+
+        .chiroylirasm2 img{
+            display: none;
+        }
+
+        .bolimcha{
+            width: 327px;
+            height: 509px;
+            top: -78px;
+
+            .hikoya{
+                width: 279px;
+                height: 306px;
+                top: 142px;
+                left: 24px;
+
+                h1{
+                    width: 279px;
+                    height: 56px;
+                    font-size: 28px;
+                    line-height: 28px;
+                    text-align: center;
+                }
+
+                p{
+                    width: 270px;
+                    height: 226px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

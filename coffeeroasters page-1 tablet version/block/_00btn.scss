@@ -1,0 +1,37 @@
+.btn{
+    position: relative;
+    width: 217px;
+    height: 56px;
+    background-color: #0E8784;
+    border-radius: 6px;
+    border: none;
+    
+    p{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: #62dedc;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+button:active{
+    cursor: alias;
+    border: 2px solid gray;
+    background-color: #146564;
+    color: #dadada;
+}

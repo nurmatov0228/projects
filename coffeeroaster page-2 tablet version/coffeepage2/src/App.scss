@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar div a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+
+.navbar a:hover {
+  cursor: pointer;
+  color: #333d4b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.section {
+  position: relative;
+  width: 1440px;
+  height: auto;
+  background: #fefcf7;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .section {
+    width: 750px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .section {
+    width: 375px;
+  }
+}

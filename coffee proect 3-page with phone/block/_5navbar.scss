@@ -1,0 +1,43 @@
+.navbar {
+  position: absolute;
+  width: 283px;
+  height: 15px;
+  left: 1077px;
+  top: 50px;
+  display: flex;
+  justify-content: space-around;
+
+  div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: #333d4b;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    top: 46px;
+    left: 445px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .navbar {
+    display: none;
+  }
+}

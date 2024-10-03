@@ -1,0 +1,176 @@
+.offer {
+  position: absolute;
+  width: 255px;
+  height: 356px;
+  left: 165px;
+  top: 1552px;
+}
+.offer .birinchi {
+  position: absolute;
+  width: 211px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+.offer .birinchi img {
+  position: absolute;
+  width: 28.38px;
+  height: 17.76px;
+  left: 0.73px;
+  top: 7.72px;
+}
+.offer .birinchi h3 {
+  position: absolute;
+  width: 149.6px;
+  height: 17.88px;
+  left: 59.57px;
+  top: 7.46px;
+}
+.offer ._2tortburchak {
+  position: absolute;
+  width: 255px;
+  height: 1px;
+  left: 0px;
+  top: 56px;
+  background: #83888f;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+.offer .ikkinchi {
+  position: absolute;
+  width: 189px;
+  height: 32px;
+  left: 0px;
+  top: 81px;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.offer .ikkinchi img {
+  position: absolute;
+  width: 32.39px;
+  height: 17.76px;
+  left: 0.73px;
+  top: 7.72px;
+}
+.offer .ikkinchi h3 {
+  position: absolute;
+  width: 128.06px;
+  height: 22.76px;
+  left: 59.57px;
+  top: 7.83px;
+}
+.offer ._3tortburchak {
+  position: absolute;
+  width: 255px;
+  height: 1px;
+  left: 0px;
+  top: 137px;
+  background: #83888f;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+.offer .uchinchi {
+  position: absolute;
+  width: 170px;
+  height: 32px;
+  left: 0px;
+  top: 175px;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+.offer .uchinchi img {
+  position: absolute;
+  width: 31.16px;
+  height: 17.76px;
+  left: 0.73px;
+  top: 7.72px;
+}
+.offer .uchinchi h3 {
+  position: absolute;
+  width: 110px;
+  height: 23.2px;
+  left: 59.21px;
+  top: 7.4px;
+}
+.offer ._4tortburchak {
+  position: absolute;
+  width: 255px;
+  height: 1px;
+  left: 0px;
+  top: 218px;
+  background: #83888f;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+.offer .tortinchi {
+  position: absolute;
+  width: 223px;
+  height: 32px;
+  left: 0px;
+  top: 243px;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+.offer .tortinchi img {
+  position: absolute;
+  width: 32.53px;
+  height: 18.17px;
+  left: 0.73px;
+  top: 7.31px;
+}
+.offer .tortinchi h3 {
+  position: absolute;
+  width: 161.91px;
+  height: 23.71px;
+  left: 59.22px;
+  top: 6.88px;
+}
+.offer ._5tortburchak {
+  position: absolute;
+  width: 255px;
+  height: 1px;
+  left: 0px;
+  top: 299px;
+  background: #83888f;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+.offer .beshinchi {
+  position: absolute;
+  width: 185px;
+  height: 32px;
+  left: 0px;
+  top: 324px;
+}
+.offer .beshinchi img {
+  position: absolute;
+  width: 31.11px;
+  height: 17.81px;
+  left: 0.73px;
+  top: 7.67px;
+}
+.offer .beshinchi h3 {
+  position: absolute;
+  width: 123.54px;
+  height: 18.46px;
+  left: 59.57px;
+  top: 6.88px;
+}
+.offer h3:hover {
+  cursor: pointer;
+  color: #333d4b;
+  transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .offer {
+    display: none;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .offer {
+    display: none;
+  }
+}/*# sourceMappingURL=offer.css.map */

@@ -1,0 +1,23 @@
+.coffeeroasters img{
+    position: absolute;
+    width: 236px;
+    height: 26px;
+    left: 80.1px;
+    top: 43.56px;
+}
+
+@media only screen and (max-width:768px){
+    .coffeeroasters img{
+        top: 40px;
+        left: 39px;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .coffeeroasters img{
+        width: 163px;
+        height: 18px;
+        left: 24px;
+        top: 32px;
+    }
+}

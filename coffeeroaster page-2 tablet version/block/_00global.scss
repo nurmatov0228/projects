@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar div a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.navbar a:hover{
+      cursor: pointer;
+      color: #333D4B;  
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+}
